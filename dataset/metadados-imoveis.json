@@ -1,0 +1,456 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Ficha dos Imóveis da prefeitura do Recife",
+			"descricao": "Ficha reduzida dos imóveis públicos da prefeitura do Recife",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#governo-municipal",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Secretaria de Finanças",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "Anual",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/ficha-dos-imoveis-da-prefeitura-do-recife",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Por edificação",
+			"etiquetas": "finanças, imóvel, imóveis, prefeitura, prédios públicos"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/ficha-dos-imoveis-da-prefeitura-do-recife/resource/8a85caee-af0f-4931-8ae0-ea1fa918696b",
+				"titulo": "Ficha dos Imóveis da Prefeitura do Recife",
+				"formato": "csv",
+				"descricao": "Contém a ficha reduzida dos imóveis públicos da prefeitura do Recife, com as informações de localização geográfica georreferenciada, proprietário, área, topografia, tipo de edificação, estado de conservação, regime tributário tlb, entre outras informações."
+			}
+		],
+		"campos": [
+			{
+				"codigo": "ultimaAtualizacaoCadastral",
+				"descricao": "Ultima data da atualização cadastrada",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "situacao",
+				"descricao": "Situação do imovel",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "sequencialImovel",
+				"descricao": "Código sequencial do Imovel",
+				"tipo": "Num",
+				"tamanho": 7,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "proprietarioPrincipal",
+				"descricao": "Nome do proprietario Principal",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "natureza",
+				"descricao": "Natureza do Imovel",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "inscricaoImobiliaria",
+				"descricao": "Inscrição imobiliaria do imovel",
+				"tipo": "Char",
+				"tamanho": 30,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelNomeLogradouro",
+				"descricao": "Logradouro do Imovel",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelMunicipio",
+				"descricao": "Municipio do Imovel",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelEstado",
+				"descricao": "Estado do endereço do Imovel",
+				"tipo": "Char",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelComplemento",
+				"descricao": "Complemento do endereço do Imovel",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelCodigoLogradouro",
+				"descricao": "Código do Logradouro do endereço do Imovel",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelCep",
+				"descricao": "CEP do endereço do Imovel",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoImovelBairro",
+				"descricao": "Bairro do endereço do Imovel",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaNumero",
+				"descricao": "Número do endereço da correspondencia",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaNomeLogradouro",
+				"descricao": "Logradouro do endereço da correspondencia",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaMunicipio",
+				"descricao": "Municipio do endereço da correspondencia",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaEstado",
+				"descricao": "Estado do endereço da correspondencia",
+				"tipo": "Char",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaComplemento",
+				"descricao": "Complemento do endereço da correspondencia",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaCep",
+				"descricao": "CEP do endereço da correspondencia",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "enderecoCorrespondenciaBairro",
+				"descricao": "Bairro do endereço da correspondencia",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "documentoProprietario",
+				"descricao": "Documento do Proprietario",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "cepProprietario",
+				"descricao": "CEP do Proprietario",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "topografiaLote",
+				"descricao": "Tipo da Topografia do lote",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "testadaPrincipalLote",
+				"descricao": "Tipo da topografia principal testada",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "testadaFicticiaLote",
+				"descricao": "Teste ficticio do Lote",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "superficieLote",
+				"descricao": "Tipo da superficie do Lote",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "muradoLote",
+				"descricao": "Se o lote é murado",
+				"tipo": "Char",
+				"tamanho": 3,
+				"valores_permitidos": "Sim, Não"
+			},
+			{
+				"codigo": "formatoLote",
+				"descricao": "Qual o formato do lote",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "comCalcadaLote",
+				"descricao": "Se o lote possui calçada",
+				"tipo": "Char",
+				"tamanho": 3,
+				"valores_permitidos": "Sim, Não"
+			},
+			{
+				"codigo": "areaLote",
+				"descricao": "Área do Lote",
+				"tipo": "Num",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipoEmpreendimentoMultipla",
+				"descricao": "Tipos de Empreendimento por Multipla",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "quantidadePavimentosMultipla",
+				"descricao": "Quantidade de Pavimentos por Multipla",
+				"tipo": "Num",
+				"tamanho": 5,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nomeSuperContemMultipla",
+				"descricao": "Nome do projeto da multipla",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nomeEdificacaoMultipla",
+				"descricao": "Nome do edificio da multipla",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "areaTotalConstruidaMultipla",
+				"descricao": "Área Total construida da multipla",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "anoConstrucaoMultipla",
+				"descricao": "Ano de construção da multipla",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipoEstruturaSimples",
+				"descricao": "Tipo da Estrutura do Simples",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipoEmpreendimentoSimples",
+				"descricao": "Tipo do Empreendimento do Simples",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipoConstrucaoSimples",
+				"descricao": "Tipo da construção do Simples",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "padraoConstrucaoSimples",
+				"descricao": "Padrão de construção do Simples",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "numeroHabiteseSimples",
+				"descricao": "Número de habiteses do Simples",
+				"tipo": "Num",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fracaoIdealSimples",
+				"descricao": "Fração ideal do Simples",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "estadoConservacaoSimples",
+				"descricao": "Estado de consevação do simples",
+				"tipo": "Char",
+				"tamanho": 15,
+				"valores_permitidos": "Bom, Regular, Mau"
+			},
+			{
+				"codigo": "dataCadastroPrefeituraSimples",
+				"descricao": "Data do Cadastro do Simples na Prefeitura",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "coeficienteDepreciacao",
+				"descricao": "Coeficiente de depreciação",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "areaTotalConstruidaSimples",
+				"descricao": "Área total construida do Simples",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "valorVenal",
+				"descricao": "Valor Venal do Imovel",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "v0ValorTestadaFicticia",
+				"descricao": "é o valor unitário do metro linear de testada fictícia de cada face de quadra dos logradouros públicos, definido pela Planta Genérica de Valores de Terrenos",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipoAliquotaImposto",
+				"descricao": "tipo da Aliquota do Imposto",
+				"tipo": "Char",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "regimeTributacaoTLP",
+				"descricao": "regime de tributação TLP",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "patrimonio",
+				"descricao": "patrimonio",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "aliquotaImposto",
+				"descricao": "aliquota Imposto",
+				"tipo": "Num",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "situacaoPavimentacao",
+				"descricao": "Situação da Pavimentação",
+				"tipo": "Char",
+				"tamanho": 20,
+				"valores_permitidos": "Parcialmente Pavimentado, Não Pavimentado, Pavimentado"
+			},
+			{
+				"codigo": "DISTRITO",
+				"descricao": "Número do distrito",
+				"tipo": "Num",
+				"tamanho": 5,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "SETOR",
+				"descricao": "Número do SETOR",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "QUADRA",
+				"descricao": "Número do QUADRA",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "FACE",
+				"descricao": "Número do FACE",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "LOTE",
+				"descricao": "Número do LOTE",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "SEQUENCIAL",
+				"descricao": "Número do SEQUENCIAL",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "longitude",
+				"descricao": "longitude do Imovel",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "latitude",
+				"descricao": "latitude do Imovel",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}

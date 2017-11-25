@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1511349813289.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "600ED561",
+    "lastKnownWriteTime" : 1511631767,
+    "last_content_update" : 1511631767976,
+    "path" : "~/avaliacao de imoveis/avaliacao de imoveis.R",
+    "project_path" : "avaliacao de imoveis.R",
+    "properties" : {
+        "cursorPosition" : "16,37",
+        "scrollLine" : "58"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

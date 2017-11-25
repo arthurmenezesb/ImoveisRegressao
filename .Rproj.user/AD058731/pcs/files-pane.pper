@@ -1,0 +1,9 @@
+{
+    "path" : "~/avaliacao de imoveis",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

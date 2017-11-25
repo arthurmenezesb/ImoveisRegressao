@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1511141979304.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D298ED54",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1511141979304,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "EF012123",
+        "caption" : "imoveis",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=imoveis&cache_key=EF012123",
+        "displayedObservations" : 3095,
+        "environment" : "",
+        "object" : "imoveis",
+        "preview" : 0,
+        "totalObservations" : 3095,
+        "variables" : 63
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
