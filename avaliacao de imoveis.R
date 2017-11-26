@@ -12,33 +12,19 @@
 
 imoveis <- read.csv(file = "dataset/imoveis-sirgas-xml-bd.csv", header = TRUE, sep = ";")
 
-#usado para teste funciona
-datinha <- imoveis$dataCadastroPrefeituraSimples[3];
-as.Date(datinha, format = "%d/%m/%Y")
-vetorSemDataVazio <- imoveis[!(is.na(imoveis$dataCadastroPrefeituraSimples) | imoveis$dataCadastroPrefeituraSimples==""), ]
-vetorDataFormatada <- as.Date(vetorSemDataVazio$dataCadastroPrefeituraSimples, format = "%d/%m/%Y")
-print(vetorDataFormatada)
-#fim usado para teste funciona
-
 #ARTHUR - removendo as datas em branco
 imoveis <- imoveis[!(is.na(imoveis$dataCadastroPrefeituraSimples) | imoveis$dataCadastroPrefeituraSimples==""), ]
 #ARTHUR - calculando a data cadastro prefeitura com a data atual e jogando na variavel teste
+vetorSemDataVazio <- imoveis[!(is.na(imoveis$dataCadastroPrefeituraSimples) | imoveis$dataCadastroPrefeituraSimples==""), ]
 imoveis$dataCadastroDiferencaDias <- difftime(as.Date(vetorSemDataVazio$dataCadastroPrefeituraSimples, format = "%d/%m/%Y") ,Sys.Date() , units = c("days"));
 #ARTHUR - transformando o valor de dias em numerico
 imoveis$dataCadastroDiferencaDias <-as.numeric(as.character(imoveis$dataCadastroDiferencaDias))
+#ARTHUR - transformando o valor de enderecoBairro em numerico
+imoveis$enderecoImovelBairroNumerico <- as.numeric(imoveis$enderecoImovelBairro)
+
 #ARTHUR - selecionando as colunas
 imoveis <- imoveis[imoveis$natureza == "Predial",]
-imoveis <- imoveis[,c(25,30,45:49,64)]
-imoveis <- imoveis[imoveis$valorVenal <= 60000, ]
-summary(imoveis)
-cor(imoveis)
-
-
-
-#selecionando apenas os imóveis de natureza predial
-imoveis <- imoveis[imoveis$natureza == "Predial",]
-#selecionando variáveis numéricas
-imoveis <- imoveis[,c(25,30,45:49)]
+imoveis <- imoveis[,c(25,30,45:49,64,65)]
 imoveis <- imoveis[imoveis$valorVenal <= 60000, ]
 
 #Uma maneira fácil de obter algumas estatísticas descritivas das variáveis em estudo é através do comando
